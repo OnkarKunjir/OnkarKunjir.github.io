@@ -12,7 +12,6 @@ html{
     --highlight: #8FBCBB;
     --button_background: #5E81AC;
 }
-
 body{
     background-color: var(--background);
     color: var(--foreground);
@@ -22,7 +21,6 @@ body{
     max-width: 90rem;
     overflow-x: hidden;
 }
-
 .small{
     font-size: 1.25rem;
 }
@@ -146,5 +144,22 @@ section{
     }
     .group p{
         margin-top: 30px;
+    }
+    body, .button{
+        font-size: 1.125rem;
+    }
+    .small{
+        font-size: 1rem;
+    }
+    .section-header{
+        font-size: 1.5rem;
+        margin-bottom: 1.05rem;
+    }
+    .subsection-header{
+        font-size: 1.375rem;
+        height: 1.813rem;
+    }
+    section{
+        margin-bottom: 4.938rem;
     }
 }
