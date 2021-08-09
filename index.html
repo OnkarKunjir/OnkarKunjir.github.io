@@ -1,11 +1,130 @@
-<!DOCTYPE html>
+<!doctype html>
 <html>
     <head>
-        <title>Demo</title>
-        <link rel="stylesheet" href="OnkarKunjir.github.io/main.css">
+        <meta charset="utf-8">
+        <title>Onkar Kunjir</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="./style.css">
     </head>
     <body>
-        <button onclick="btn()">click</button>   
-        <script src="main.js"></script> 
+
+        <header>
+            <nav class="desktop-only">
+                <h3>
+                    Onkar Kunjir
+                </h3>
+                <ul>
+                    <li><a href="#skills">Skill</a></li>
+                    <li><a href="#experiance">Experience</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact-me">Contact me</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <main>
+            <section class="about" id="about">
+                <h3 class="section-header">Hi, I’m Onkar Kunjir.</h3>
+                <p>
+                    I’m software engineer with a batchelors degree in computer engineering.<br>
+                    I have experiance in building websites, android applications and also writing automation scripts.<br>
+                    I’m very enthusiastic about GNU/Linux and open source software.
+                    While working on projects I like to keep things light weight and optimized as possible.
+                    I started programming to build games which I could play on my old computer and ended up picking programming as my career.
+                </p>
+                <div class="button-group">
+                    <a class="button solid" target="_blank" href="https://drive.google.com/file/d/1Z-VMsILzD3WLdiyZMnYL_7eDtoPNFN2z/view?usp=sharing">View Resume</a>
+                    <a class="button" href="mailto:onkarkunjir8@gmail.com">Contact me</a>
+                </div>
+            </section>
+
+            <section class="skill" id="skill">
+                <h3 class="section-header">Skills</h3>
+                <div class="group">
+                    <h2 class="subsection-header">Programming languages</h2>
+                    <p>C/C++ <i>(gotta go fast)</i>, Python, JavaScript, TypeScript.</p>
+                </div>
+                <div class="group">
+                    <h2 class="subsection-header">Tools, Frameworks and Operating systems</h2>
+                    <p>Flask, Tensorflow, CMake, Angular, Flutter, GNU/Linux <i>(I use Arch btw.)</i></p>
+                </div>
+            </section>
+
+            <section class="experiance" id="experiance">
+                <h3 class="section-header">Experiance</h3>
+                <div class="group">
+                    <div class="date">
+                        <h2 class="subsection-header">Software Engineer - eQ Technologic</h2>
+                        <p><i>Aug ‘21 - Ongoing</i></p>
+                    </div>
+                    <p class="small">Pune, India</p>
+                </div>
+            </section>
+
+            <section class="projects" id="projects">
+                <h3 class="section-header">Projects</h3>
+
+                <div class="group">
+                    <div class="date">
+                    <a class="subsection-header" href="#">Engine</a>
+                    <p><i>Jun ‘21 - Ongoing</i></p>
+                    </div>
+                    <p class="small"><i>C++, OpenGL, GLSL</i></p>
+                    <p>A rendering engine library similar to SDL. Provides functionality to create windows and render graphics using OpenGL. This project was created with the intention to learn OpenGL but turned into one library which can be used in C++ applications involving graphics.</p>
+                </div>
+
+                <div class="group">
+                    <div class="date">
+                    <a class="subsection-header" href="#">CHIP-8</a>
+                    <p><i>Jul ‘21 - Jul ‘21</i></p>
+                    </div>
+                    <p class="small"><i>C++, OpenGL, GLSL</i></p>
+                    <p>CHIP-8 is a emulator written in C++ for CHIP-8 interpreted programming language which is used to develop classic video games like Pong, Tetris, Space Invaders etc. This emulator is also capable of emulating Super CHIP-8 instructions which have high resolution assets and larger display size. This project makes use of <u><i>Engine</i></u> for rendering graphics.</p>
+                </div>
+
+                <div class="group">
+                    <div class="date">
+                    <a class="subsection-header" href="#">Plant Diseases Detection</a>
+                    <p><i>Aug ‘20 - May ‘21</i></p>
+                    </div>
+                    <p class="small"><i>Python, JavaScript, Tensorflow, Flask</i></p>
+                    <p>Plant Diseases Detection is a web application for detecting plant species, the diseases it’s suffering from <i>(if any)</i> using images of plant leaf, after detecting presence of diseases it gives more information about it and suggest pesticides which could be used to reslove the issue.</p>
+                </div>
+
+                <div class="group">
+                    <div class="date">
+                    <a class="subsection-header" href="#">Sinc</a>
+                    <p><i>Jul ‘20 - Jul ‘20</i></p>
+                    </div>
+                    <p class="small"><i>Flutter, Dart</i></p>
+                    <p>Sinc <i>(Sinc Is Not CamScanner)</i> is a simple document scanning application which helps to click multiple images of documents and export/share them as pdf.</p>
+                </div>
+            </section>
+
+            <section class="education" id="education">
+                <h3 class="section-header">Education</h3>
+                <div class="group">
+                    <div class="date">
+                    <div class="subsection-header">Bachelor in Computer Engineering</div>
+                    <p><i>2017-2021</i></p>
+                    </div>
+                    <p class="small"><i>Pune University, India <br>CGPA: 9.39 / 10</i></p>
+                </div>
+            </section>
+
+            <section class="contact-me" id="contact-me">
+                <h3 class="section-header">Let's have a talk</h3>
+                <p>
+                    Want to hire me, have some project in mind or just want to say hi just send an emil on
+                    <u><a href="mailto:onkarkunjir8@gmail.com">onkarkunjir8@gmail.com</a></u>
+                    my inbox is always open for you.
+                    Want to get some more insight follow me on <a target="_blank" href="https://www.linkedin.com/in/onkarkunjir/">Linkedin</a>
+                    or
+                    <a target="_blank" href="https://github.com/OnkarKunjir/">see which projects I’m currently working.</a>
+                </p>
+            </section>
+
+        </main>
+
     </body>
 </html>
